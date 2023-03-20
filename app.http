@@ -2,10 +2,13 @@ POST http://localhost:2000/api/products HTTP/1.1
 Content-Type: application/json
 
 {
-    "name": "Oreo",
-    "category": "Cookie",
-    "ubication": "United States",
-    "price": 5
+    "name": "Jorgito",
+    "category": "Alfajor",
+    "ubication": "Argentina",
+    "price": 2
 }
 
+###
+
+GET http://localhost:2000/api/products HTTP/1.1
 
